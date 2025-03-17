@@ -18,9 +18,7 @@ function App() {
             <Route path="/mens" element={<Category category="men"/>}/>
             <Route path="/women" element={<Category category="women"/>}/>
             <Route path="/kids" element={<Category category="kids"/>}/>
-            <Route path="/products" element={<Products/>}>
-              <Route path="/product" element={<Products/>}/>
-            </Route>
+            <Route path="/products" element={<Products/>}/>
             <Route path="/cart" element={<Cart/>}/>
             <Route path="/login" element={<LoginSignup/>}/>
           </Routes>
