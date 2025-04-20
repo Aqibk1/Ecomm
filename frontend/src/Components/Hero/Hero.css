@@ -1,0 +1,55 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    /* Keep background or adjust as needed */
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+.hero-left{
+    flex: 1; /* Takes up half the space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; /* Spacing between direct children (h2, text block, button) */
+    padding-left: 180px; /* Adjust as needed for alignment */
+    line-height: 1.1; /* Controls line spacing within text blocks */
+}
+.hero-left h2{
+    color: #090909;
+    font-size: 26px; /* Adjusted size - change as needed */
+    font-weight: 600;
+    /* Add text-transform if you want it always uppercase */
+    text-transform: uppercase;
+}
+.hero-left p{
+    color: #171717;
+    font-size: 100px; /* Keep the large size */
+    font-weight: 700;
+}
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between "New Arrivals" and the hand icon */
+}
+.hero-hand-icon img{
+    width: 105px;
+}
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px; /* Space above the button */
+    background: #ff4141;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+.hero-right{
+    flex: 1; /* Takes up the other half */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
